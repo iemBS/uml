@@ -1,0 +1,13 @@
+[use case name & maybe number, start with action and keep short]
+Pre-Conditions:
+  1. [what the system should ensure is true before the system allows the use case to begin, remove this section if not needed]
+Triggers: 
+  1. [specifies the event that gets the use case started, remove this section if not needed]
+Main Success Scenario:
+  1. [limit this to 10 steps]
+Alternatives:
+  1. [alternate success scenarios, remove this section if not needed]
+Exceptions:
+  1. [failure scenarios, remove this section if not needed]
+Guarantee:
+  1. [what the system will ensure at the end of the use case, remove this section if not needed]
