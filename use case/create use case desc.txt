@@ -1,0 +1,89 @@
+Use Case Descriptions are textual and can be used to create Use Case Diagrams (type of UML diagram)
+
+
+Layout
+--------------------
+[xxx: add optional parts to layout]
+Use Case [#] [name]
+Actors: [name 1]:[def 1], [name 2]:[def 2]
+Note: 
+  - 
+Preconditions:
+  - 
+Main Success Scenario:
+  1.
+Alternatives:
+  1a. 
+Exceptions:
+  1a. 
+
+
+Parts of Layout explained
+----------------------------
+Use Case #: 
+  - Optional part of a use case description if use case can be identified easy enough with it's name/title
+  - Allows for grouping of several use case descriptions into Use Case sets
+  - Uniquely identifies a use case
+Use Case name/title:   
+  - Required part of use case desc
+  - Start with an action
+Actors:
+  - Optional part of use case desc
+  - Bolding actor names in "Main Success Scenario" also helps
+  - each actor has a name and a definition
+Level: 
+  - indicates level in process
+Priority:
+  - Optional part of use case desc
+  - Indicator of use case important
+Description: 
+  - Optional part of use case desc
+  - Brief desc of what the use case does
+Created by: 
+  - Optional part of use case desc
+  - author of the use case
+Revision History:
+  - Optional part of use case desc
+  - chronology of use case changes
+Preconditions: 
+  - Optional part of use case desc
+  - What needs to be true before use case begins
+  - Use some sort of bullet point instead of numbers or letters because order is not important in this section
+Triggers:
+  - Event(s) that start use case
+Main Success Scenario: 
+  - Required part of use case description
+  - This is the ideal scenario that will occur
+  - Nothing goes wrong in this scenario
+  - Try to keep this to 10 steps or less
+  - Try to start each step w an actor and follow that with an action
+  - Nice for readability if step is on a single line
+Alternatives:  
+  - Not a required part of a use case desc
+  - An alternate scenario that can occur for step(s) in the Main Success Scenario
+  - Numbering is Main Success Scenario step number with a letter next to it
+    - First alternate scenario is Xa if X is the Main Success Scenario step
+    - Second alternate scenario is Xb, third, Xc, and so on. 
+  - All, some, or none of the Main Success Scenario steps can have an alternate scenario
+  - If an alternate scenario of Xa is noted, then the first step of that alt scenario is Xa1. Second is Xa2. 
+  - You can do alternatives within each alternative scenario, but it may be better to just reference another use case
+  - These scenarios are less frequent than the main success scenario
+  - If "Exceptions" section is not used, then these can be successful and not successful scenarios
+  - If "Exceptions" section is used, then these are alternate successful scenarios
+Exceptions: 
+  - Not a required part of a use case desc
+  - Alternate scenarios that lead to an unsuccessful conclusion
+Guarantee:
+  - Not a required part of a use case desc
+  - [xxx: need to fill in]
+
+Ex
+-----------------------
+[xxx: need to fill in]
+
+
+
+Guidance from
+----------------------------
+https://www.dummies.com/business/business-strategy/how-to-create-use-case-description-for-your-business-analysis-report/
+https://www.usability.gov/how-to-and-tools/methods/use-cases.html
