@@ -4,7 +4,7 @@ Use Case Descriptions are textual and can be used to create Use Case Diagrams (t
 Layout
 --------------------
 [xxx: add optional parts to layout]
-Use Case [#] [name]
+Use Case [ID] [name]
 Actors: [name 1]:[def 1], [name 2]:[def 2]
 Note: 
   - 
@@ -20,7 +20,7 @@ Exceptions:
 
 Parts of Layout explained
 ----------------------------
-Use Case #: 
+Use Case ID: 
   - Optional part of a use case description if use case can be identified easy enough with it's name/title
   - Allows for grouping of several use case descriptions into Use Case sets
   - Uniquely identifies a use case
